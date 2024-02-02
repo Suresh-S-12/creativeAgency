@@ -1,0 +1,80 @@
+.ServicePart {
+  padding-block: 6.25rem;
+  padding-bottom:20rem;
+}
+.serviceCounter {
+  color: #f2e401;
+  font-family: Poppins;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem; /* 126.316% */
+}
+
+.ServicePartLeft {
+  position: relative;
+}
+
+.serviceImgContainer {
+  width: 26.48156rem;
+  height: 35.20363rem;
+  flex-shrink: 0;
+  border-radius: 0rem 11.2305rem 0rem 0rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.serviceImgContainer2 {
+  width: 23.63594rem;
+  height: 24.64831rem;
+  flex-shrink: 0;
+  border-radius: 10.02369rem 0rem 0rem 0rem;
+  border: 8px solid #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServicePartLeft .serviceImgContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ServicePartLeft .serviceImgContainer2 {
+  position: absolute;
+  bottom: -220px;
+}
+
+.serviceImg2
+{
+    background-size: cover;
+}
+@media (max-width: 992px) {
+  .ServicePartLeft .serviceImgContainer {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+}
+
+.fa-solid.fa-play
+{
+    font-size: 2rem
+}
+.play-btn
+{
+    position: absolute;
+    cursor: pointer;
+    padding: 1.65rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.serviceImgBg
+{
+    position: absolute;
+   top: 20%;
+   left: 50px;
+}

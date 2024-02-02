@@ -1,0 +1,38 @@
+.homeAcheivementPart {
+  background: #f2e401;
+  padding-block: 6.25rem;
+}
+
+.acheivementContainer {
+  padding-block: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  gap: 1rem;
+}
+
+  .acheivementIconContainer {
+    position: relative;
+    padding: 1.06rem;
+    overflow: hidden;
+    border-radius: 0.3125rem;
+  }
+  
+  .acheivementIconContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .acheivementIconContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.11;
+  }
+  

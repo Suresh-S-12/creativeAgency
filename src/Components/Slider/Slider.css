@@ -1,0 +1,43 @@
+.homeLeafImg {
+    width: 100%; 
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  /* Add these styles to your Slider.css file */
+.slider-container {
+    position: relative;
+  }
+
+  .homeLeafContainer
+  {
+    position: relative;
+  }
+  
+  .homeLeafContainer .homeLeafImg 
+  {
+    position: absolute;
+    z-index: 10;
+  }
+  .homeClientSwiper .card
+  {
+    position: relative;
+  }
+
+  .card-text
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .swiper-slide .card 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+.swiper-slide.homeClientSwiper 
+{
+    padding-left: 2rem !important;
+    padding-bottom: 2rem;
+}

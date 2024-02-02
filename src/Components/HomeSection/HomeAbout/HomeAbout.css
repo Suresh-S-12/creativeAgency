@@ -1,0 +1,121 @@
+.homePageAbout
+{
+    padding-block: 6.25rem;
+    position: relative;
+}
+
+.homePageAbout::before
+{
+    content: url('../../../Assets/Images/HomePage/homeAboutDesign.svg');
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.homeAboutPoints {
+  list-style: none;
+}
+
+
+.homeAboutLeft
+{
+    position: relative;
+}
+
+.homeAboutimg
+{
+    position: absolute;
+}
+
+.homeAboutimg1
+{
+    top: -25px;
+    right: 90px;
+    opacity: 0.3;
+}
+
+.homeAboutimg2
+{
+    top: -10px;
+   right: 50px;
+   opacity: 0.3;
+}
+
+.homeAboutimg3
+{
+    top: 10px;
+    right: 10px;
+    opacity: 0.8;
+}
+
+.homePageAboutRight
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homeAboutPoints li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  line-height: 1.625rem;
+  margin-bottom: 0.88rem;
+}
+
+.homeAboutPoints li::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #f2e401;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.homeAboutIconPart
+{
+    display: flex;
+    gap: 4.37rem;
+}
+.homeAboutIcons p
+{
+    margin-bottom: 0;
+}
+
+.homeAboutIcons
+{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.homeAboutBtn
+{
+    margin-top:3.31rem ;
+}
+
+
+@media(max-width:992px)
+{
+
+    .homeAboutimg
+    {
+        position: static;
+    }
+    .homeAboutimg1,.homeAboutimg2
+    {
+        display: none;
+    }
+    .homeAboutimg3
+    {
+        opacity: 1;
+        margin-bottom: 5rem;
+    }
+}
+
+@media(max-width:480px)
+{
+    .homeAboutIconPart
+    {
+        flex-direction: column;
+    }
+}

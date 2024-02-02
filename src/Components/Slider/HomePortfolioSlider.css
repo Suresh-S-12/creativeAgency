@@ -1,0 +1,32 @@
+.homePortfolioContainer {
+  width: 20.3125rem;
+  height: 27.5rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.homePortfolioPart .swiper-wrapper {
+  padding-bottom: 3rem;
+}
+
+.homePortfolioPart .swiper-pagination {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  bottom: 15px !important;
+}
+
+.homePortfolioPart .swiper-slide.swiper-slide-active .homePortfolioContainer {
+  width: 20.3125rem;
+  height: 34.1875rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

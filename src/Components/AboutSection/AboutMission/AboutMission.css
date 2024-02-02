@@ -1,0 +1,48 @@
+.aboutMissionContainer1 {
+  width: 20.44913rem;
+  height: 28.094rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.aboutMissionContainer2 {
+  width: 17.90038rem;
+  height: 21.49563rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.aboutMissionPage {
+  padding-top: 7rem;
+  padding-bottom: 17rem;
+}
+
+.aboutMissionRight {
+  position: relative;
+}
+
+.aboutMissionRight2
+{
+  position: absolute;
+  right: 0;
+  bottom: -13rem;
+  align-items: center;
+}
+
+.aboutMissionLists ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.88rem;
+}
+
+.aboutMissionLists ul li::before {
+  content: url("../../../Assets//Images/AboutPage/About/AboutMissionListBefore.svg");
+}

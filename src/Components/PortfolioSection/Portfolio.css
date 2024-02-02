@@ -1,0 +1,80 @@
+.portfolio {
+  padding-block: 6.25rem;
+}
+
+.portfolio .card-body {
+  display: none;
+}
+
+.portfolio .card img {
+  position: relative;
+}
+
+.portfolio .card {
+  position: relative;
+}
+
+.portfolio .card:hover .card-body {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  color: black;
+  padding: 0;
+  padding-left: 2.06rem;
+  padding-bottom: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.portfolio .card-body {
+  display: none; /* Initially hide the card-body */
+  transition: all 0.3s ease-out; /* Apply transition on hide/show */
+}
+
+.portfolioPagination {
+  margin-top: 4.37rem !important;
+}
+.portfolioPagination .page-item {
+  margin-inline: 1rem !important;
+}
+#page-item.pagination .page-item.active .page-link {
+  color: black;
+  background-color: #f2e401 !important;
+}
+
+.portfolioPagination .page-item .page-link {
+  padding: 0.94rem !important;
+  border-radius: 0.625rem;
+  border: 2px solid #f2e401;
+  
+}
+
+.portfolioPagination .page-item .page-link:hover
+{
+  background-color: #f2e401;
+}
+
+.portfolioPagination .page-item:first-child .page-link
+{
+  font-size: 2rem;
+}
+
+.portfolioPagination .page-item:last-child .page-link,
+.portfolioPagination .page-item:first-child .page-link
+{
+  font-size: 2rem;
+  padding-inline: 22px !important;
+}
+
+.portfolioPagination .page-link:focus
+{
+  background-color: white;
+  box-shadow: none;
+}
+
+.portfolio .card
+{
+  cursor: pointer;
+}

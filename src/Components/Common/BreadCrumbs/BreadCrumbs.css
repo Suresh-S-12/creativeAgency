@@ -1,0 +1,43 @@
+.bread-crumbs
+{
+    padding-block: 8.88rem;
+    background: url(../../../Assets/Images/HomePage/Hero/BreadCrumbsBg.svg);
+    text-align: center;
+}
+.crumb
+{
+    color: #000;
+font-family: Poppins;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.125rem; /* 117.857% */
+}
+.navigate-link
+{
+    color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+}
+.orange-cls
+{
+    color: #F2E401;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+
+    
+    line-height: 1.625rem; /* 162.5% */
+}
+
+.bread-crumbs p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}

@@ -1,0 +1,58 @@
+.aboutAbout {
+  position: relative;
+  padding-block: 6.25rem;
+}
+.DesingBullests1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.DesingBullests2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.AboutAboutLeft {
+  position: relative;
+}
+
+.AboutAboutImage {
+  position: absolute;
+  max-width: 80% !important;
+}
+.AboutABoutDesign {
+  position: absolute;
+  bottom: 0;
+}
+.AboutAboutLeft li {
+  color: #474747;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.aboutAuthorCircle {
+  width: 4.6875rem;
+  height: 4.68131rem;
+  border-radius: 4.6875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.aboutAuthorImage
+{
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutPage .homeTeamPage
+{
+  padding-top: 9rem;
+}

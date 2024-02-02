@@ -1,0 +1,84 @@
+.homeNewsLetter {
+  position: relative;
+  padding-block: 6.25rem;
+  background-color: #f2e401;
+  overflow: hidden; /* Ensures the overflow is hidden to contain pseudo-elements */
+}
+
+.homeNewsLetter::before,
+.homeNewsLetter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%; /* Adjust as needed based on your design */
+  z-index: 10;
+  opacity: 0.3;
+}
+
+.homeNewsLetter::before {
+  left: 0;
+  background: url(../../../Assets/Images/HomePage/newsletter-bg-left.svg) left
+    no-repeat;
+}
+
+.homeNewsLetter::after {
+  right: 0;
+  background: url(../../../Assets/Images/HomePage/newsletter-bg-right.svg) right
+    no-repeat;
+}
+
+.nesLetterPara {
+  margin-top: 2.38rem;
+}
+
+.newsLetterInput {
+  margin-top: 2.24rem;
+  position: relative;
+  width: 60% !important;
+  z-index: 20;
+}
+
+.newsLetterInput .form-control {
+  padding-block: 30px;
+  border-radius: 0%;
+  border-radius: 1.25rem !important;
+}
+
+.newsLetterInput .form-control:focus {
+  box-shadow: none;
+}
+
+.homeNewsLetter-row {
+  gap: 1.88rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageIcon {
+  position: absolute;
+  padding: 0.87rem 1.88rem;
+  border-radius: 1rem !important;
+  right: 20px;
+  z-index: 10;
+  top: calc(100% - 75px);
+  background-color: #f2e401;
+}
+
+@media (max-width: 575px) {
+
+    .homeNewsLetter-row {
+        gap: 1rem;
+      }
+  .newsLetterInput {
+    width: 100% !important;
+  }
+
+  .newsLetterInput .form-control {
+    padding-block: 20px;
+  }
+  .messageIcon {
+    padding: 0.5rem;
+    top: calc(100% - 60px);
+  }
+}

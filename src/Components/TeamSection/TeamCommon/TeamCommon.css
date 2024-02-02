@@ -1,0 +1,24 @@
+.teamCommon {
+  background: url(../../../Assets/Images/TeamPage/TeamCommonBG.svg);
+  padding-block: 6.25rem;
+}
+
+.teamCommonBtn {
+  padding: 0.9375rem 1.5625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 0.3125rem;
+  background: #000;
+  color: #F2E401 !important;
+}
+
+.teamCommonContent
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.87rem;
+}

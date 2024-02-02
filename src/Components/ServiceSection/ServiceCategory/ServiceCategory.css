@@ -1,0 +1,15 @@
+.serviceCategory
+{
+    padding-block: 6.25rem;
+}
+
+.service-card:hover .card
+{ 
+    cursor: pointer;
+    border: 1px solid #f2e401;
+}
+.service-card:hover hr
+{ 
+    color: #f2e401;
+    
+}

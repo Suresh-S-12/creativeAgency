@@ -1,0 +1,64 @@
+.homeProcessPart
+{
+    padding-block: 6.25rem;
+    position: relative;
+    
+}
+
+.homeProcessDesginFrame
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.homeProcessPart::before
+{
+    content: url('../../../Assets/Images/DesignBullets.svg');
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.homeProcessPart::after
+{
+    content: url('../../../Assets/Images/DesignBullets.svg');
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.processContainer
+{
+    padding: 1.88rem;
+    background-color: rgb(252, 255, 216);
+}
+
+.leftProcessContainer .processContainer
+{
+    margin-top: 3.13rem;
+}
+
+.homeProcessLeft
+{
+    position: relative;
+}
+.homeProcessFrame
+{
+    position: absolute;
+    left: -20px;
+}
+
+.homeProcessYellowFrame
+{
+    position: absolute;
+    left: -20px;
+    top: 50px;
+}
+
+.homeProcessFrameImage
+{
+    width: 50%;
+   
+
+    
+}

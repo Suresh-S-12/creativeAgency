@@ -1,0 +1,58 @@
+.teamPart
+{
+    position: relative;
+    padding-block: 6.25rem;
+}
+
+.teamPart::after
+{
+    content: url(../../Assets/Images/Design-bullet.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.teamCateogry
+{
+    color: #000;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+    color: black;
+    border-radius: 0.3125rem;
+background: #F2E401;
+backdrop-filter: blur(5.5px);
+    padding: 0.25rem 0.41rem;
+}
+
+.teamPart .card
+{
+    transition: 0.3s all ease-in;
+    cursor: pointer;
+    border: none;
+}
+
+.teamPart .card .teamMember {
+    border-radius: 20px;
+}
+
+.teamMember {
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.teamPart .card:hover .teamMember {
+ 
+    filter: grayscale(0%);
+}
+
+
+.teamSocial:hover
+{
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+}

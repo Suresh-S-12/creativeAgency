@@ -1,0 +1,16 @@
+.homeTeamPage
+{
+    padding-top: 19.25rem;
+    padding-bottom: 6.25rem;
+}
+.homeTeamPageContainer
+{
+    position: relative;
+}
+.hoemTeamTop
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

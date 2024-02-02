@@ -1,0 +1,123 @@
+.homeTeamPage .card-img-overlay 
+{
+    display: flex;
+    width: 90% !important;
+    top: auto !important;
+    background-color: white;
+   bottom: -10% !important;
+   transition: all 0.3s ease-in;
+   
+
+}
+.homeTeamPage .swiper-wrapper
+{
+    cursor: pointer;
+   padding-top: 8rem;
+}
+.homeTeamPage .card-img-overlay .card-body
+{
+    padding: 0;
+}
+
+.icon-container
+{
+    display: none;
+}
+.homeTeamPage .card {
+    position: relative;
+}
+
+.homeTeamPage .card:hover::before {
+    content: '';
+    background-color: black;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    transition: opacity 0.3s ease-in;/* Ensure the overlay is below the icon container */
+}
+
+.homeTeamPage .card:hover .card-img-overlay
+{
+    bottom: 0 !important;
+    width: 100% !important;
+}
+
+.homeTeamPage .card .icon-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure the icon container is above the overlay */
+}
+
+.homeTeamPage .card:hover .icon-container {
+    display: flex;
+    z-index: 2;
+    gap: 1rem;
+}
+
+.homeTeamPage .card:hover .icon-container .homeTeamIcon:hover
+{
+    background-color: #F2E401;
+}
+
+.homeTeamIcon
+{
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+
+.homeTeamPage .swiper-wrapper
+{
+    padding-top: 14.25rem;
+}
+
+.homeTeamPage .swiper-button-next
+{
+    left: 12% !important;
+    top: 15% !important;
+}
+.swiper-button-next:after
+{
+    border: 1px solid #F2E401;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 0.625rem;
+
+padding: 0.94rem  1.3rem;
+}
+.homeTeamPage .swiper-button-prev
+{
+    
+    left: 5% !important;
+    top: 15% !important;
+}
+.swiper-button-prev:after
+{
+    border: 1px solid #F2E401;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    border-radius: 0.625rem;
+
+padding: 0.94rem 1.3rem;
+}
+
+.swiper-button-prev:hover:after ,.swiper-button-next:hover::after
+{
+    background-color: #F2E401;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0.8;
+    cursor: auto;
+    pointer-events: none;
+    
+}

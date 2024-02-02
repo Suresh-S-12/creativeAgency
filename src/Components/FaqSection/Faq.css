@@ -1,0 +1,69 @@
+.faqPart
+{
+    position: relative;
+    padding-block: 6.25rem;
+}
+.faqPart::before
+{
+    content: url(../../Assets/Images/DesignBullets.svg);
+    position: absolute;
+    bottom: 0;
+}
+.faqPart::after
+{
+    content: url(../../Assets/Images/DesignBullets.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.faqSection
+{
+    margin-top: 4.5rem !important;
+}
+.faqPart .accordion-item
+{
+    border: 2px solid #030211;
+    border-top: none;
+    margin-bottom: 1.88rem;
+}
+.faqPart .accordion-button::after
+{
+    content: url(../../Assets/Images/FaqPage/faqAdd.svg);
+    background-image: none;
+    height: auto;
+    width: auto;
+}
+.faqPart .accordion-button:not(.collapsed)
+{
+    background-color: black;
+    box-shadow: none;
+}
+.faqPart .accordion-button:not(.collapsed) h5
+{
+    color: white !important;
+}
+
+.faqPart .accordion-button:not(.collapsed)::after
+{
+    content: url(../../Assets/Images/FaqPage/faqRemove.svg);
+    background-image: none;
+    background-color: none !important;
+    height: auto;
+    width: auto;
+}
+.faqPart .accordion-button:focus 
+{
+    background-color: #030211;
+    color: white;
+    box-shadow: none;
+}
+.faqPart .accordion-button:focus h5
+{
+    color: white !important;
+}
+.faqPart .accordion-body 
+{
+    background-color: black;
+    color: white;
+}

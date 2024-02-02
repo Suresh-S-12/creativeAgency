@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Adjust the z-index to make sure the header appears above other content */
+  }
+  
+  .navbar-nav .nav-link.active
+  {
+    color: #F2E401 !important;
+    font-weight: 700;
+  }
+ 
+  .dropdown-item.active
+  {
+    background-color: white !important;
+    color: black;
+    font-family: Poppins;
+    font-weight: 700;
+  }

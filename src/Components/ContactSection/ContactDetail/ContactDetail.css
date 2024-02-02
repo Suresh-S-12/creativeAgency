@@ -1,0 +1,67 @@
+.contactDetail {
+    position: relative;
+    padding-block: 7.25rem;
+}
+
+.contactDetailLeft
+{
+   position: relative;
+}
+.contactPattern
+{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    z-index:-1;
+}
+.contactImgContainer1 {
+  width: 19.75819rem;
+  height: 31.625rem;
+  flex-shrink: 0;
+  border-radius: 1.75rem;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contactImgContainer2 {
+  width: 19.75819rem;
+  height: 15.1875rem;
+  flex-shrink: 0;
+
+  border-radius: 1.75rem;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media(min-width:1200px) and (max-width:1399px)
+{
+    .contactImgContainer1 {
+        width: 18.75819rem;
+        height: 29.625rem;
+      
+        overflow: hidden;
+      }
+    .contactImgContainer2 {
+        width: 13.75819rem;
+        height: 14.1875rem;
+      }
+      .contactPattern
+      {
+        right: 20px;
+      }
+}
+.contactDetailEmail,.contactDetailPhone,.contactDetailLocation
+{
+    gap: 1.62rem;
+}
+.contactDetailEmail p,.contactDetailPhone p,.contactDetailLocation p
+{
+    margin-bottom: 0;
+    
+}

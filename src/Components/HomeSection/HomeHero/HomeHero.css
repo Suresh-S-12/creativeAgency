@@ -1,0 +1,42 @@
+.homeHero
+{
+    background: url(../../../Assets/Images/HomePage/Hero/homeHero.svg) bottom no-repeat;
+   
+}
+
+.homeHeroIcon
+{
+    padding: 0.94rem;
+    border-radius: 0.3125rem;
+background: #F2E401;
+width: 3.75rem !important;
+height: 3.75rem !important;
+flex-shrink: 0;
+}
+
+.homeHero {
+    padding-top: 8.25rem;
+    padding-bottom: 5.25rem;
+  }
+
+.homeHeroRight
+{
+    position: relative;
+    background: url(../../../Assets/Images//HomePage/Hero/heroRIghtBG.svg);
+}
+
+.homeHeroRightIcon
+{
+    position: absolute;
+}
+
+.homeHeroRightIcon1
+{
+    bottom: 0;
+    right: 30px;
+}
+
+.homeHeroRightIcon2
+{
+    left: 30%;
+}

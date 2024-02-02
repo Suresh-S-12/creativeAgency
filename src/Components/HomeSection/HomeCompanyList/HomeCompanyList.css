@@ -1,0 +1,17 @@
+.companyListPart
+{
+    padding-block: 7.05rem;
+    background: #F2E401;
+}
+.companyListPart .swiper-wrapper
+{
+    display: flex !important;
+    align-items: center;
+}
+.companyListPart .swiper-slide
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+

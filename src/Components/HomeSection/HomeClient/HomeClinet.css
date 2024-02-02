@@ -1,0 +1,153 @@
+.HomeClient-part
+{
+    position: relative !important;
+    padding-block: 6.1rem;
+}
+
+
+
+.homeClientDot,.homeClientCircle
+{
+    position: absolute;
+}
+.homeClientDot
+{
+    top: -30px;
+    right: 50%;
+}
+.homeClientCircle
+{
+    bottom: 10px;
+    left:-30px;
+    overflow: hidden;
+}
+.HomeClient
+{
+    position: relative;
+}
+
+.HomeClient::before
+{
+    content: url('../../../Assets/Images/Desing3.svg');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.HomeClient::after
+{
+    content: url('../../../Assets/Images/DesignBullets1.svg');
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.HomeClinetPartRight
+{
+    position: relative;
+    padding: 1.41rem 3.06rem !important;
+    
+}
+.HomeClinetPartRight .largeCircleContainer,
+.HomeClinetPartRight .smallCircleContainer,
+.HomeClinetPartRight .mediumCircleContainer,
+ .HomeClinetPartRight .liteCircelContainer
+
+{
+    position: absolute;
+    
+}
+
+.HomeClinetPartRight .largeCircleContainer.lg-circle-1
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mediumCircleContainer.md-circle-1
+{
+    bottom: 0;
+    left: 45%;
+    transform: translate(-50%, -30%);
+}
+
+.mediumCircleContainer.md-circle-2
+{
+    top: 15%;
+    right: 15%;
+}
+
+.smallCircleContainer.sm-circle-1
+{
+    bottom: 20%;
+    right: 20%;
+}
+.smallCircleContainer.sm-circle-2
+{
+    bottom: 40%;
+    right: 10%;
+}
+.smallCircleContainer.sm-circle-3
+{
+    top: 10%;
+    right: 50%;
+}
+
+.liteCircelContainer.lt-circle-1
+{
+    top: 50%;
+   left: 15%;
+}
+.liteCircelContainer.lt-circle-2
+{
+    top: 25%;
+    left: 20%;
+}
+
+.homeClientImage
+{
+   
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.HomeClinetPartRight .largeCircleContainer .homeClientImage
+{
+     bottom: 0;
+}
+
+.HomeClient .swiper-pagination
+{
+    bottom: 100px !important;
+    width: 125% !important;
+}
+
+.HomeClient .card
+{
+    border: none !important;
+}
+
+
+.HomeClient  .card-text
+{
+    padding-block: 2rem;
+    line-height: 1.625rem;
+}
+
+
+
+.HomeClient  .swiper-pagination-bullet
+{
+    width: 1rem !important;
+height: 0.5rem !important;
+background-color: #A7A7A7 !important;
+border-radius: 10px;
+}
+.HomeClient .swiper-pagination-bullet-active
+{
+    width: 2rem !important;
+height: 0.5rem !important;
+background-color: #F2E401 !important;
+border-radius: 10px;
+}
